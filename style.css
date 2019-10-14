@@ -1,0 +1,158 @@
+#footer {
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #8A7F8E; /* Цвет фона */
+    color: #FFAE42; /* Цвет текста */
+    width: 100%;    /* Ширина слоя */
+    display: flex;
+   }
+   #t
+   {
+       background:#8A7F8E;
+       width:900;
+   }
+      .t1
+   {
+       background:#425E17;
+   }
+#navbar {
+    
+    right: 5px;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+ 
+    clear:both;
+    width: 100%;
+    height:500px;
+    overflow:hidden;
+    font-family: Arial;
+    text-decoration: none;
+    font-size: 60px;
+    vertical-align:middle;
+    margin: 9;
+    padding:0;
+    text-align: center;
+    list-style-type: none;
+    margin-top: 50px;
+    background: #8A7F8E ;
+   
+   
+}
+@media (orientation: landscape)
+{
+    #navbar {
+    
+    right: 5px;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+ 
+    clear:both;
+    width: 100%;
+    height:50px;
+    overflow:hidden;
+    font-family: Arial;
+    text-decoration: none;
+    font-size: 30px;
+    vertical-align:middle;
+    margin: 9;
+    padding:0;
+    text-align: center;
+    list-style-type: none;
+    margin-top: 50px;
+    background: #8A7F8E ;
+   
+   
+}
+}
+.shapka
+{
+    display: flex;
+    flex-direction:column;
+    width:100%;
+    background-color:#8A7F8E;
+    height:400px;
+}
+.logo
+{
+    display: flex;
+    float:left;
+    margin:5px;
+    height:170px;
+}
+.lol
+{
+     display: flex;
+     flex-direction:column;
+}
+.lol1{order:0;
+    
+}
+.lol2{order:1;
+    
+}
+@media (min-device-width:800px )
+{
+.lol1{order:1;
+    
+}
+.lol2{order:0;
+    
+}
+   #leftimg {
+    display: flex;
+    flex-direction:row;
+    float:left; /* Выравнивание по левому краю */
+    margin: 15px 15px 15px 0; /* Отступы вокруг картинки */
+   }
+
+.shapka
+{
+    display: flex;
+    flex-direction:row;
+    width:100%;
+    background-color:#8A7F8E;
+    height:250px;
+}
+}
+
+#navbar ul li a.active,
+
+#navbar ul li a.active:hover {
+
+   color:#fff;
+
+   background:#000;
+
+   font-weight:bold;
+
+}
+#navbar li { display: inline; }
+
+   #leftimg {
+    float:none; /* Выравнивание по левому краю */
+    margin: 15px 15px 15px 15px; /* Отступы вокруг картинки */
+   }
+
+  
+   h1 {
+    font-family: Pompadur, 'Arial';
+    font-size: 80px;
+    background-color:#8A7F8E;
+    height: 230;
+    color: #FFAE42;
+   }
+    html {background-color:#FFAE42;
+    height: 100%; /* Высота страницы */     
+   }
+   body {
+      width:100%;
+    background-position: top left ; /* Положение фона */
+    background-repeat: no-repeat; /* Отменяем повторение фона */
+     background-size: 1500 250; /* Масштабируем фон */
+   
+   }
+
